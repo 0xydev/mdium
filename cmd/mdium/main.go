@@ -35,4 +35,4 @@ func main() {
 	if err := client.DownloadArticles(*limit); err != nil {
 		log.Fatalf("Error: %v", err)
 	}
-} 
+}

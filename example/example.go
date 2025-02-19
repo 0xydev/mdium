@@ -40,4 +40,4 @@ func main() {
 	if err != nil {
 		log.Printf("Error downloading publication articles: %v", err)
 	}
-} 
+}

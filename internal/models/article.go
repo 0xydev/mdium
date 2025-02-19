@@ -17,4 +17,4 @@ type FrontMatter struct {
 	Date   time.Time `yaml:"date"`
 	Link   string    `yaml:"link"`
 	Author string    `yaml:"author"`
-} 
+}

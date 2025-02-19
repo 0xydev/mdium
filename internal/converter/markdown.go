@@ -3,8 +3,8 @@ package converter
 import (
 	"fmt"
 
-	md "github.com/JohannesKaufmann/html-to-markdown"
 	"github.com/0xydev/mdium/internal/models"
+	md "github.com/JohannesKaufmann/html-to-markdown"
 	"gopkg.in/yaml.v3"
 )
 
@@ -45,4 +45,4 @@ func (m *MarkdownConverter) ConvertArticle(article models.Article) (string, erro
 	// Combine frontmatter and content
 	result := fmt.Sprintf("---\n%s---\n\n%s", string(frontMatterBytes), markdown)
 	return result, nil
-} 
+}

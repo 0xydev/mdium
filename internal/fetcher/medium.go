@@ -62,7 +62,7 @@ func (m *MediumFetcher) fetchRSSFeed() (*RSSFeed, error) {
 	var url string
 	source := strings.TrimPrefix(m.source, "https://")
 	source = strings.TrimPrefix(source, "http://")
-	
+
 	if m.isDomain {
 		if strings.Contains(source, "medium.com/") {
 			// Publication feed (e.g., medium.com/netflix-techblog)
@@ -124,4 +124,4 @@ func (m *MediumFetcher) convertToArticles(feed *RSSFeed) ([]models.Article, erro
 	})
 
 	return articles, nil
-} 
+}

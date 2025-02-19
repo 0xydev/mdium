@@ -47,4 +47,4 @@ func (f *FileStorage) sanitizeFileName(title string) string {
 	}
 
 	return result
-} 
+}

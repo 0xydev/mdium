@@ -32,7 +32,7 @@ type Client struct {
 // outputDir is the directory where markdown files will be saved
 func NewClient(source string, outputDir string) (*Client, error) {
 	sourceType := detectSourceType(source)
-	
+
 	return &Client{
 		source:     source,
 		sourceType: sourceType,
@@ -75,4 +75,4 @@ func (c *Client) DownloadArticles(limit int) error {
 	}
 
 	return nil
-} 
+}

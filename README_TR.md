@@ -19,12 +19,12 @@ Medium makalelerini markdown formatına dönüştüren Go paketi.
 
 ### Paket Olarak
 ```bash
-go get github.com/0xydev/mdium@v0.1.0
+go get github.com/0xydev/mdium@v0.1.1
 ```
 
 ### Komut Satırı Aracı Olarak
 ```bash
-go install github.com/0xydev/mdium/cmd/mdium@v0.1.0
+go install github.com/0xydev/mdium/cmd/mdium@v0.1.1
 ```
 
 ## Özellikler

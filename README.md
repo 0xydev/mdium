@@ -20,12 +20,12 @@ mdium is a Go package for downloading Medium articles as markdown files.
 
 ### As a Package
 ```bash
-go get github.com/0xydev/mdium@v0.1.0
+go get github.com/0xydev/mdium@v0.1.1
 ```
 
 ### As a Command Line Tool
 ```bash
-go install github.com/0xydev/mdium/cmd/mdium@v0.1.0
+go install github.com/0xydev/mdium/cmd/mdium@v0.1.1
 ```
 
 ## Features

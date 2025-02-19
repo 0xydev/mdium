@@ -8,6 +8,7 @@ mdium is a Go package for downloading Medium articles as markdown files.
 ## Tech Stack
 
 [![Go](https://img.shields.io/badge/go-1.23-00ADD8.svg?style=flat&logo=go)](https://go.dev/)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/0xydev/mdium)](https://pkg.go.dev/github.com/0xydev/mdium)
 [![RSS](https://img.shields.io/badge/RSS-Feed-FFA500.svg?style=flat&logo=rss)](https://en.wikipedia.org/wiki/RSS)
 [![Markdown](https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=markdown)](https://daringfireball.net/projects/markdown/)
 [![YAML](https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=yaml)](https://yaml.org/)
@@ -16,8 +17,15 @@ mdium is a Go package for downloading Medium articles as markdown files.
 - Go 1.23 or higher
 
 ## Installation
+
+### As a Package
 ```bash
 go get github.com/0xydev/mdium@v0.1.0
+```
+
+### As a Command Line Tool
+```bash
+go install github.com/0xydev/mdium/cmd/mdium@v0.1.0
 ```
 
 ## Features
